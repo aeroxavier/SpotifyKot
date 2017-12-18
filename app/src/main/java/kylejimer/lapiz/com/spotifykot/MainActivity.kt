@@ -18,18 +18,18 @@ class MainActivity : AppCompatActivity() {
 
         Songs.add(Music("Titibo-Tibo", "Moria Dela Torre", " • Himig Handog 2017"))
         Songs.add(Music("Havana", "Camilla Cabello", " • Havana"))
-        Songs.add(Music("Arms Open", "The Script", " • Human Clay"))
-        Songs.add(Music("Look At Me Now", "Charlie Puth", " • Alien Boy"))
-        Songs.add(Music("Where My Love Goes", "Lawson", " • Perspective"))
+        Songs.add(Music("What Lovers Do", "Maroon 5 ft. SZA", " • Red Pill Blues"))
+        Songs.add(Music("Young Dumb and Broke", "Khalid", " • American Teen"))
+        Songs.add(Music("Too Good at Goodbyes", "Sam Smith", " • The Thrill Of It All"))
         Songs.add(Music("If You Could See Me Now", "The Script", " • 3"))
         Songs.add(Music("Back To You", "Louis Tomlinson", " • Louis Tomlinson"))
         Songs.add(Music("Sorry Not Sorry", "Demi Lovato", " • Tell Me You Love Me"))
-        Songs.add(Music("Too Good At Goodbyes", "Sam Smith", " • The Thrill of It All"))
+        Songs.add(Music("New Rules ", "Dua Lipa", " • Dua Lipa (Deluxe)"))
         Songs.add(Music("Perfect", "Ed Sheeran", " • Divide"))
-        Songs.add(Music("What Lovers Do", "Maroon 5 ft. SZA", " • Red Pill Blues"))
+        Songs.add(Music("All I Want For Christmas Is You", "Mariah Carey", " • Merry Christmas"))
 
 
-        var adapter = AdapterClass(Songs)
+        val adapter = AdapterClass(Songs)
         recyclerview.adapter = adapter
     }
 }
